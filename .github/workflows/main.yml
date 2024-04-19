@@ -18,4 +18,4 @@ jobs:
     - uses: actions/setup-python@v5
       with:
         python-version: '3.10' 
-    - run: export PIP_INDEX_URL=http://98.96.15.39:5000/simple/ && pip install -r requirements.txt
+    - run: export PIP_INDEX_URL=http://98.96.15.39:5000/simple/ && pip install -r requirements.txt --trusted-host 98.96.15.39
